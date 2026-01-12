@@ -1,0 +1,88 @@
+{
+    "HomePage": {
+        "title": "Build Your Own RAG Knowledge Base",
+        "subtitle": "Intelligent QA system based on Retrieval-Augmented Generation with source tracing support",
+        "getStarted": "Get Started",
+        "features": {
+            "kbTitle": "Knowledge Base Management",
+            "kbDesc": "Create and manage multiple knowledge bases, supporting PDF, Markdown, and TXT documents.",
+            "ragTitle": "RAG Engine",
+            "ragDesc": "Semantic search based on pgvector to retrieve the most relevant context.",
+            "multiModelTitle": "Multi-Model Support",
+            "multiModelDesc": "Support for DeepSeek, Qwen, and Zhipu AI with automatic fallback mechanism.",
+            "citTitle": "Citation Tracing",
+            "citDesc": "See exactly where the AI got its answer from, with page numbers and line ranges."
+        }
+    },
+    "Auth": {
+        "loginTitle": "Welcome back",
+        "loginSubtitle": "Enter your credentials to access your account",
+        "registerTitle": "Create an account",
+        "registerSubtitle": "Enter your information to create an account",
+        "username": "Username",
+        "password": "Password",
+        "loginButton": "Sign In",
+        "registerButton": "Sign Up",
+        "haveAccount": "Already have an account?",
+        "noAccount": "Don't have an account?",
+        "loginLink": "Sign In",
+        "registerLink": "Sign Up",
+        "loggingIn": "Signing in...",
+        "registering": "Creating account...",
+        "errorGeneric": "An unexpected error occurred"
+    },
+    "Dashboard": {
+        "title": "Knowledge Bases",
+        "newKB": "New Knowledge Base",
+        "noKB": "No Knowledge Bases",
+        "noKBDesc": "Get started by creating a new knowledge base.",
+        "createModalTitle": "Create Knowledge Base",
+        "nameLabel": "Name",
+        "descLabel": "Description",
+        "cancel": "Cancel",
+        "create": "Create",
+        "creating": "Creating...",
+        "documents": "Documents",
+        "chat": "Chat",
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure you want to delete this knowledge base?"
+    },
+    "KBDetail": {
+        "backToDashboard": "Back to Dashboard",
+        "uploadDocs": "Upload Documents",
+        "startChat": "Start Chat",
+        "documents": "Documents",
+        "refresh": "Refresh Status",
+        "noDocs": "No documents uploaded yet.",
+        "status": {
+            "ready": "Ready",
+            "failed": "Failed",
+            "processing": "Processing",
+            "pending": "Pending"
+        }
+    },
+    "UploadModal": {
+        "title": "Upload Documents",
+        "dragDrop": "Drag & drop files here, or click to select files",
+        "support": "Supports PDF, TXT, MD (Max 10MB)",
+        "cancel": "Cancel",
+        "upload": "Upload",
+        "uploading": "Uploading...",
+        "uploadSuccess": "Upload successful!"
+    },
+    "ChatInterface": {
+        "placeholder": "Ask a question about your knowledge base...",
+        "sending": "Sending...",
+        "send": "Send",
+        "sources": "Sources",
+        "page": "Page",
+        "lines": "Lines",
+        "score": "Score",
+        "thoughtProcess": "Thought Process"
+    },
+    "Common": {
+        "language": "Language",
+        "logout": "Logout",
+        "admin": "Admin"
+    }
+}

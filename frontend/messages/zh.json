@@ -1,0 +1,88 @@
+{
+    "HomePage": {
+        "title": "构建您的专属 RAG 知识库",
+        "subtitle": "基于检索增强生成技术的智能问答系统，支持精确的引用溯源",
+        "getStarted": "开始使用",
+        "features": {
+            "kbTitle": "知识库管理",
+            "kbDesc": "创建和管理多个知识库，支持上传 PDF、Markdown 和 TXT 文档。",
+            "ragTitle": "RAG 引擎",
+            "ragDesc": "基于 pgvector 的语义检索，精准定位最相关的上下文信息。",
+            "multiModelTitle": "多模型支持",
+            "multiModelDesc": "支持 DeepSeek、通义千问 (Qwen) 和智谱 AI，具备自动降级容错机制。",
+            "citTitle": "引用溯源",
+            "citDesc": "答案来源一目了然，精确显示引用的页码和行号范围。"
+        }
+    },
+    "Auth": {
+        "loginTitle": "欢迎回来",
+        "loginSubtitle": "输入您的凭据以访问账户",
+        "registerTitle": "创建账户",
+        "registerSubtitle": "输入注册信息以创建新账户",
+        "username": "用户名",
+        "password": "密码",
+        "loginButton": "登录",
+        "registerButton": "注册",
+        "haveAccount": "已有账户？",
+        "noAccount": "没有账户？",
+        "loginLink": "登录",
+        "registerLink": "注册",
+        "loggingIn": "登录中...",
+        "registering": "注册中...",
+        "errorGeneric": "发生了意外错误"
+    },
+    "Dashboard": {
+        "title": "知识库列表",
+        "newKB": "新建知识库",
+        "noKB": "暂无知识库",
+        "noKBDesc": "点击上方按钮创建您的第一个知识库。",
+        "createModalTitle": "创建知识库",
+        "nameLabel": "名称",
+        "descLabel": "描述",
+        "cancel": "取消",
+        "create": "创建",
+        "creating": "创建中...",
+        "documents": "文档管理",
+        "chat": "开始对话",
+        "delete": "删除",
+        "deleteConfirm": "确定要删除这个知识库吗？此操作无法撤销。"
+    },
+    "KBDetail": {
+        "backToDashboard": "返回知识库列表",
+        "uploadDocs": "上传文档",
+        "startChat": "开始对话",
+        "documents": "文档列表",
+        "refresh": "刷新状态",
+        "noDocs": "暂无文档，请上传。",
+        "status": {
+            "ready": "就绪",
+            "failed": "失败",
+            "processing": "处理中",
+            "pending": "排队中"
+        }
+    },
+    "UploadModal": {
+        "title": "上传文档",
+        "dragDrop": "拖拽文件到此处，或点击选择文件",
+        "support": "支持 PDF, TXT, MD (最大 10MB)",
+        "cancel": "取消",
+        "upload": "上传",
+        "uploading": "上传中...",
+        "uploadSuccess": "上传成功！"
+    },
+    "ChatInterface": {
+        "placeholder": "请输入关于知识库的问题...",
+        "sending": "发送中...",
+        "send": "发送",
+        "sources": "参考来源",
+        "page": "页",
+        "lines": "行",
+        "score": "置信度",
+        "thoughtProcess": "思考过程"
+    },
+    "Common": {
+        "language": "语言",
+        "logout": "退出登录",
+        "admin": "管理员"
+    }
+}
