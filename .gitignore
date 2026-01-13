@@ -55,6 +55,9 @@ backend/uploads/*
 # Kiro
 .kiro/
 
+# Shared
+.shared/
+
 # Test coverage
 .coverage
 htmlcov/
